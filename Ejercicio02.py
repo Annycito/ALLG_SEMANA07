@@ -8,7 +8,8 @@ ratios_con_indice = []
 for i in range(len(nombres)):
     ratio = precios[i] / pesos[i]
     ratios_con_indice.append((ratio, i))
-# ordenar descendente
+# ordenar de forma descendente
+#examen no LAMBA NO LAMBA, REPITO NO LAMBA 
 ratios_con_indice.sort(key=lambda x: x[0], reverse=True)
 
 kg = [0.0] * len(nombres)
